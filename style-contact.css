@@ -1,0 +1,48 @@
+body{
+    background-image: url("background1.webp"); /* image used in the background of contact.html */
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    font-family: 'Raleway', sans-serif;
+ 
+}
+label{
+    font-weight: bolder;
+    color: rgb(18, 26, 69);
+}
+form{
+    text-align: center;
+    display: block;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Raleway', sans-serif;
+
+}
+input[type= text]{
+    width: 350px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+input[type= email]{
+    width: 350px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+textarea{
+    width: 350px;
+    height: 150px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+input[type= button]{
+    margin-top: 10px;
+    background-color:rgb(255, 255, 255); 
+    font-size: 20px;
+    padding: 5px 10px;
+    height: 40px;
+    border-color: antiquewhite;
+    border-radius: 20px;
+    font-weight: bold;
+    color:rgb(32, 72, 138);
+    font-family: 'Raleway', sans-serif;
+}

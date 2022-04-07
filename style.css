@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(151, 215, 249); 
+    font-family: 'Raleway', sans-serif;
+}
+#personal-img{ /* personal image at the top of page */
+    position: absolute;
+
+}
+
+.first-section{ /* this section for text next to picture */
+    position: relative; 
+    padding-left: 200px;
+
+}
+hr{
+    width: 100px;
+    border-top: 5px dotted  rgb(79, 95, 101);
+}
+table, th, td{
+   border: 2px solid gray
+}
+table{
+    margin-left: auto ;
+    margin-right: auto;
+    width: 1200px;
+}
+.column-1{
+ text-align: center;
+ font-weight: bold;
+}
+.second-table{
+    width: 600px;
+}
+button{
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(255, 255, 255); 
+    font-size: 20px;
+    padding: 5px 10px;
+    height: 40px;
+    border-color: antiquewhite;
+    border-radius: 20px;
+    font-weight: bold;
+    color:rgb(32, 72, 138);
+    font-family: 'Raleway', sans-serif;
+}
+.center{
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
